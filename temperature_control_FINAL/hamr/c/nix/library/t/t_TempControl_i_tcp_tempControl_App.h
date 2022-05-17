@@ -1,0 +1,68 @@
+#ifndef SIREUM_H_t_TempControl_i_tcp_tempControl_App
+#define SIREUM_H_t_TempControl_i_tcp_tempControl_App
+
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+#include <types.h>
+
+void t_TempControl_i_tcp_tempControl_App_init(STACK_FRAME_ONLY);
+
+art_Bridge_EntryPoints t_TempControl_i_tcp_tempControl_App_entryPoints(STACK_FRAME_ONLY);
+Z t_TempControl_i_tcp_tempControl_App_appPortId(STACK_FRAME_ONLY);
+Option_882048 t_TempControl_i_tcp_tempControl_App_appPortIdOpt(STACK_FRAME_ONLY);
+Z t_TempControl_i_tcp_tempControl_App_currentTempPortId(STACK_FRAME_ONLY);
+Option_882048 t_TempControl_i_tcp_tempControl_App_currentTempPortIdOpt(STACK_FRAME_ONLY);
+Z t_TempControl_i_tcp_tempControl_App_fanAckPortId(STACK_FRAME_ONLY);
+Option_882048 t_TempControl_i_tcp_tempControl_App_fanAckPortIdOpt(STACK_FRAME_ONLY);
+Z t_TempControl_i_tcp_tempControl_App_setPointPortId(STACK_FRAME_ONLY);
+Option_882048 t_TempControl_i_tcp_tempControl_App_setPointPortIdOpt(STACK_FRAME_ONLY);
+Z t_TempControl_i_tcp_tempControl_App_tempChangedPortId(STACK_FRAME_ONLY);
+Option_882048 t_TempControl_i_tcp_tempControl_App_tempChangedPortIdOpt(STACK_FRAME_ONLY);
+
+Z t_TempControl_i_tcp_tempControl_App_main(STACK_FRAME IS_948B60 args);
+
+Unit t_TempControl_i_tcp_tempControl_App_atExit(STACK_FRAME_ONLY);
+
+Unit t_TempControl_i_tcp_tempControl_App_initialiseArchitecture(STACK_FRAME Z seed);
+
+Unit t_TempControl_i_tcp_tempControl_App_initialise(STACK_FRAME_ONLY);
+
+Unit t_TempControl_i_tcp_tempControl_App_compute(STACK_FRAME_ONLY);
+
+Unit t_TempControl_i_tcp_tempControl_App_exit(STACK_FRAME_ONLY);
+
+Unit t_TempControl_i_tcp_tempControl_App_touch_printDataContent(STACK_FRAME art_DataContent a);
+
+Unit t_TempControl_i_tcp_tempControl_App_touch(STACK_FRAME_ONLY);
+
+Unit t_TempControl_i_tcp_tempControl_App_finalise(STACK_FRAME_ONLY);
+
+void t_TempControl_i_tcp_tempControl_App_init_entryPoints(STACK_FRAME_ONLY);
+
+void t_TempControl_i_tcp_tempControl_App_init_appPortId(STACK_FRAME_ONLY);
+
+void t_TempControl_i_tcp_tempControl_App_init_appPortIdOpt(STACK_FRAME_ONLY);
+
+void t_TempControl_i_tcp_tempControl_App_init_currentTempPortId(STACK_FRAME_ONLY);
+
+void t_TempControl_i_tcp_tempControl_App_init_currentTempPortIdOpt(STACK_FRAME_ONLY);
+
+void t_TempControl_i_tcp_tempControl_App_init_fanAckPortId(STACK_FRAME_ONLY);
+
+void t_TempControl_i_tcp_tempControl_App_init_fanAckPortIdOpt(STACK_FRAME_ONLY);
+
+void t_TempControl_i_tcp_tempControl_App_init_setPointPortId(STACK_FRAME_ONLY);
+
+void t_TempControl_i_tcp_tempControl_App_init_setPointPortIdOpt(STACK_FRAME_ONLY);
+
+void t_TempControl_i_tcp_tempControl_App_init_tempChangedPortId(STACK_FRAME_ONLY);
+
+void t_TempControl_i_tcp_tempControl_App_init_tempChangedPortIdOpt(STACK_FRAME_ONLY);
+
+#ifdef __cplusplus
+}
+#endif
+
+#endif
